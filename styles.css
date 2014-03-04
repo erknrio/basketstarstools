@@ -1,0 +1,89 @@
+.bold{
+	font-weight: bold;
+}
+
+.footer{
+	color: white;
+}
+
+/*COLORES
+naranja fuerte: E45D27
+naranja suave: F5BD40
+rojo: D41F26
+amarillo: FBE85B
+ */
+
+.step-left{
+	margin-bottom: 1em;
+	text-align: center;
+	padding: 1em;
+	background-color:#E45D27;
+	background-image: -webkit-linear-gradient(45deg bottom,#E45D27,#000000); /* For Chrome and Safari */
+	background-image: -moz-linear-gradient(-240deg bottom,#E45D27,#000000); /* For old Fx (3.6 to 15)*/
+	background-image: -o-linear-gradient(45deg bottom,#E45D27,#000000); /* For old Opera (11.1 to 12.0) */
+	background-image: linear-gradient(45deg bottom,#E45D27,#000000); /* Standard syntax */
+	box-shadow: 1px 1px 5px black;
+	-webkit-box-shadow: 1px 1px 5px black;
+	-moz-box-shadow: 1px 1px 5px black;
+	-o-box-shadow: 1px 1px 5px black;
+	border-radius: 4px;
+	-webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none; 
+}
+
+.step-right{
+	margin-bottom: 1em;
+	text-align: center;
+	padding: 1em;
+	background-color:#E45D27;
+	background-image: -webkit-linear-gradient(45deg bottom,#E45D27,#000000); /* For Chrome and Safari */
+	background-image: -moz-linear-gradient(45deg bottom,#E45D27,#000000); /* For old Fx (3.6 to 15) #FBE85B  #E45D27*/
+	background-image: -o-linear-gradient(45deg bottom,#E45D27,#000000); /* For old Opera (11.1 to 12.0) */
+	background-image: linear-gradient(45deg bottom,#E45D27,#000000); /* Standard syntax */
+	box-shadow: 1px 1px 5px black;
+	-webkit-box-shadow: 1px 1px 5px black;
+	-moz-box-shadow: 1px 1px 5px black;
+	-o-box-shadow: 1px 1px 5px black;
+	border-radius: 4px;
+	-webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none; 
+}
+
+.app-title{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 3em;
+	text-decoration: none;
+}
+
+.app-title:hover{
+	color: #F5BD40;
+	text-decoration: none;
+}
+
+.app-title:focus{
+	color: #F5BD40;
+	text-decoration: none;
+}
+
+.btn-basketstarstools{
+	color: white;
+	text-decoration: none;
+	padding: 0.5em;
+	font-weight: bold;
+	background-color:#E45D27;
+	background-image: -webkit-linear-gradient(bottom,rgba(0,64,128,1),#0F75DB); /* For Chrome and Safari */
+	background-image: -moz-linear-gradient(bottom,rgba(0,64,128,1),#0F75DB); /* For old Fx (3.6 to 15) */
+	background-image: -o-linear-gradient(bottom,rgba(0,64,128,1),#0F75DB); /* For old Opera (11.1 to 12.0) */
+	background-image: linear-gradient(bottom,rgba(0,64,128,1),#0F75DB); /* Standard syntax */
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+	border: 1px solid blue;
+}

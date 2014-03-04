@@ -1,0 +1,43 @@
+/* CLASES */
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+  background-color: #F07800;
+}
+
+.potencial-header{
+	text-align: center;
+	font-weight: bold;
+}
+
+.popover-title{
+	background-color: #FF0000;
+	color: white;
+	font-weight: bold;
+}
+
+/*
+.margen-superior{
+	margin-top: 10%;
+}*/
+/* FIN CLASES */
+
+/* ID */
+/*#tab{
+	width: 69%;
+	margin-right: 1%;
+	float:left;
+}
+#tab thead,tbody{
+	border: 1px solid black;
+}
+#potencial{
+	width: 25%;
+	float:left;
+}
+
+#info{
+	text-align: center;
+	margin-top: 10%;
+	clear:both;
+}*/
+/* FIN ID */

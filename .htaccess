@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^apps/(\w+)-(\w+) apps/app.php?app=$1-$2
+</IfModule>
