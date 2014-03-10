@@ -87,3 +87,34 @@ amarillo: FBE85B
 	border-radius: 0.5em;
 	border: 1px solid blue;
 }
+
+.feedback{
+	position: fixed;
+	/*top: 45%;*/
+	top: 50%;
+	display: block;
+	/*width: 98px;
+	height: 25px;*/
+	/*margin: -45px 0 0 0;*/
+	margin: 0px;
+	padding: 0;
+	z-index: 100001;/*pones este elemento delante de otros*/
+}
+
+.vertical-text{
+	/* gira la caja*/
+	-webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    /* posiciona la caja */
+    -webkit-transform-origin: 0% 70%;
+    -moz-transform-origin: 0% 70%;
+  	-ms-transform-origin: 0% 70%;
+  	-o-transform-origin: 0% 70%;
+  	transform-origin: 0% 70%;
+	white-space:nowrap;
+	/* IE 9*/
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
