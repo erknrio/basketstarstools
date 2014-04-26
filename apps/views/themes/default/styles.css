@@ -18,15 +18,16 @@ amarillo: FBE85B
 	text-align: center;
 	padding: 1em;
 	background-color:#E45D27;
-	background-image: -webkit-linear-gradient(45deg bottom,#E45D27,#000000); /* For Chrome and Safari */
-	background-image: -moz-linear-gradient(-240deg bottom,#E45D27,#000000); /* For old Fx (3.6 to 15)*/
-	background-image: -o-linear-gradient(45deg bottom,#E45D27,#000000); /* For old Opera (11.1 to 12.0) */
-	background-image: linear-gradient(45deg bottom,#E45D27,#000000); /* Standard syntax */
+	background-image: -webkit-linear-gradient(105deg, bottom,#E45D27,#000000); /* For Chrome and Safari */
+	background-image: -moz-linear-gradient(105deg bottom,#E45D27,#000000); /* For old Fx (3.6 to 15)*/
+	background-image: -o-linear-gradient(105deg, bottom,#E45D27,#000000); /* For old Opera (11.1 to 12.0) */
+	background-image: linear-gradient(105deg, bottom,#E45D27 20%,#000000 80%); /* Standard syntax */
 	box-shadow: 1px 1px 5px black;
 	-webkit-box-shadow: 1px 1px 5px black;
 	-moz-box-shadow: 1px 1px 5px black;
 	-o-box-shadow: 1px 1px 5px black;
 	border-radius: 4px;
+	/* evita la seleccion de texto*/
 	-webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -39,15 +40,16 @@ amarillo: FBE85B
 	text-align: center;
 	padding: 1em;
 	background-color:#E45D27;
-	background-image: -webkit-linear-gradient(45deg bottom,#E45D27,#000000); /* For Chrome and Safari */
+	background-image: -webkit-linear-gradient(45deg, bottom,#E45D27,#000000); /* For Chrome and Safari */
 	background-image: -moz-linear-gradient(45deg bottom,#E45D27,#000000); /* For old Fx (3.6 to 15) #FBE85B  #E45D27*/
-	background-image: -o-linear-gradient(45deg bottom,#E45D27,#000000); /* For old Opera (11.1 to 12.0) */
-	background-image: linear-gradient(45deg bottom,#E45D27,#000000); /* Standard syntax */
+	background-image: -o-linear-gradient(45deg, bottom,#E45D27,#000000); /* For old Opera (11.1 to 12.0) */
+	background-image: linear-gradient(45deg, bottom,#E45D27,#000000); /* Standard syntax */
 	box-shadow: 1px 1px 5px black;
 	-webkit-box-shadow: 1px 1px 5px black;
 	-moz-box-shadow: 1px 1px 5px black;
 	-o-box-shadow: 1px 1px 5px black;
 	border-radius: 4px;
+	/* evita la seleccion de texto*/
 	-webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -72,12 +74,34 @@ amarillo: FBE85B
 	text-decoration: none;
 }
 
-.btn-basketstarstools{
+/*.btn-basketstarstools{
 	color: white;
 	text-decoration: none;
 	padding: 0.5em;
 	font-weight: bold;
 	background-color:#E45D27;
+	background-image: -webkit-linear-gradient(bottom,rgba(0,64,128,1),#0F75DB); /* For Chrome and Safari */
+	/*background-image: -moz-linear-gradient(bottom,#E45D27,#E45D27); /* For old Fx (3.6 to 15) */
+	/*background-image: -o-linear-gradient(bottom,rgba(0,64,128,1),#0F75DB); /* For old Opera (11.1 to 12.0) */
+	/*background-image: linear-gradient(bottom,#E45D27,#E45D27); /* Standard syntax */
+	/*-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+	border: 1px solid blue;
+}*/
+
+.feedback{
+	position: fixed;
+	top: 50%;
+	display: block;
+	margin: 0px;
+	padding: 0.1em;
+	z-index: 100001;/*pones este elemento delante de otros*/
+	color: white;
+	text-decoration: none;
+	padding: 0.5em;
+	font-weight: bold;
+	background-color:#0F75DB;
 	background-image: -webkit-linear-gradient(bottom,rgba(0,64,128,1),#0F75DB); /* For Chrome and Safari */
 	background-image: -moz-linear-gradient(bottom,rgba(0,64,128,1),#0F75DB); /* For old Fx (3.6 to 15) */
 	background-image: -o-linear-gradient(bottom,rgba(0,64,128,1),#0F75DB); /* For old Opera (11.1 to 12.0) */
@@ -85,20 +109,7 @@ amarillo: FBE85B
 	-webkit-border-radius: 0.5em;
 	-moz-border-radius: 0.5em;
 	border-radius: 0.5em;
-	border: 1px solid blue;
-}
-
-.feedback{
-	position: fixed;
-	/*top: 45%;*/
-	top: 50%;
-	display: block;
-	/*width: 98px;
-	height: 25px;*/
-	/*margin: -45px 0 0 0;*/
-	margin: 0px;
-	padding: 0;
-	z-index: 100001;/*pones este elemento delante de otros*/
+	border: 1px solid #0F75DB;
 }
 
 .vertical-text{

@@ -1,10 +1,5 @@
-<!doctype html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Envio Sugerencia</title>
-</head>
-<body style="text-align:center;">
+<?php require_once('header.php'); ?>
+<div style="text-align:center;">
 	<h1>Su correo electrónico se está procesando... espere por favor</h1>
 	<?php if (isset($_POST["enviar"])) {
 	if (!empty($_POST['feedbackSelect']) and !empty($_POST['feedbackTextarea'])) {
@@ -41,6 +36,6 @@
 		<?php } ?>
 <?php
 } ?>
-<a href="index.php" style="text-decoration:none; font-weight:bold;">Volver al Inicio</a>
-</body>
-</html>
+<a href="" style="text-decoration:none; font-weight:bold;">Volver al Inicio</a>
+</div>
+<?php require_once('footer.php'); ?>
