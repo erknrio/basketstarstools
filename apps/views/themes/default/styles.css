@@ -1,3 +1,10 @@
+/*COLORES
+naranja fuerte: E45D27
+naranja suave: F5BD40
+rojo: D41F26
+amarillo: FBE85B
+ */
+
 .bold{
 	font-weight: bold;
 }
@@ -5,13 +12,6 @@
 .footer{
 	color: white;
 }
-
-/*COLORES
-naranja fuerte: E45D27
-naranja suave: F5BD40
-rojo: D41F26
-amarillo: FBE85B
- */
 
 .step-left{
 	margin-bottom: 1em;
@@ -128,4 +128,9 @@ amarillo: FBE85B
 	white-space:nowrap;
 	/* IE 9*/
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.save-button{
+    margin-top: 1em !important;
+    color:black;
 }

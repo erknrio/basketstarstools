@@ -42,6 +42,7 @@ var entrenos=new Array(11);
 for (var i = 0; i < entrenos.length; i++) {
 	entrenos[i]=0;
 }
+var entrenosTotales=0;
 // Puntos: Cantidad de Puntos de Entrenamiento que posee la stat de un jugador
 var puntos=new Array(11);
 for (var i = 0; i < puntos.length; i++) {

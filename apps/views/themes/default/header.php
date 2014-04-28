@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
 <head>
-	<base href="http://localhost/basketstarstools-beta/">
+	<base href="http://localhost/basketstarstools/">
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,5 +33,4 @@
 ?>
 </head>
 <body style="padding-top: 70px;">
-<?php require_once("navbar.php"); 
-// if(!empty($_GET["app"])) require_once("../themes/default/navbar.php"); else?>
+<?php require_once("navbar.html"); ?>

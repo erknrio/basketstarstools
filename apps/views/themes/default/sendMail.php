@@ -38,4 +38,4 @@
 } ?>
 <a href="" style="text-decoration:none; font-weight:bold;">Volver al Inicio</a>
 </div>
-<?php require_once('footer.php'); ?>
+<?php require_once('footer.html'); ?>

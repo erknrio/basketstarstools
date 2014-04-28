@@ -66,8 +66,9 @@
 					</div>
 				</div>
 				<div>
-					<input type='button' id='btnAltura' class="btn btn-primary btn-block" value='Calcular Altura'/>
-					<input type='button' id="btnReset" class="btn btn-default btn-block" value='Restablecer'/>
+					<input type='submit' id='btnAltura' class="btn btn-primary btn-block" value='Calcular Altura'/>
+					<input type='reset' id="btnReset" class="btn btn-default btn-block" value='Restablecer'/>
+					<button type="button" class="btn btn-warning btn-block save-button">Guardar Rookie</button>
 				</div>
 			</form>
 	</div>

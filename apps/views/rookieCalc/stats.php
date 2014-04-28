@@ -192,7 +192,8 @@
 				</tbody>
 				<tfoot>
 					<tr>
-						<td></td><td></td><td></td><td><div><span class="bold">Total entrenamientos: </span><span id="totEntrenos">0</span></div></td>
+						<td colspan="3"></td>
+						<td><div><span class="bold">Total entrenamientos: </span><span id="totEntrenos">0</span></div></td>
 						<td><div><span class="bold">Años entreno: </span><span id="totTemporadas">0</span></div></td>
 					</tr>
 				</tfoot>

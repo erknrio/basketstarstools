@@ -14,5 +14,5 @@ if (!empty($_GET["app"])) {
         break;
 	 }
 }
-require_once("../views/themes/default/footer.php");
+require_once("../views/themes/default/footer.html");
 ?>
